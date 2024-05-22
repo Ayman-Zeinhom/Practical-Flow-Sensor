@@ -7,10 +7,14 @@
    
 ## Output Graphs:
 - ## P Output Graph: 
+P controller has a large scaled maximum overshoot 
 !["P Output Graph"](P.PNG)
 - ## PD Output Graph:
+PD deravitive decrease the max overshoot comparing to the (0.3=50% setpoint)
 !["P Output Graph"](PD.PNG)
 - ## PI Output Graph:
+ PI integral eliminates the error 
 !["P Output Graph"](PI.PNG)
-- ## PD Output Graph:
+- ## PID Output Graph:
+ PID integral-deravitive (p+pi+pd characteristics)
 !["P Output Graph"](PID.PNG)
